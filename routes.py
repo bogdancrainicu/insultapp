@@ -1,6 +1,5 @@
 import os
 from flask import Flask
-import insulter
 
 app = Flask(__name__)
 # Keeps Flask from swallowing error messages
