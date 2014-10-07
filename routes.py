@@ -10,11 +10,6 @@ insulter = insult_generator.Insulter()
 
 @app.route("/")
 def insult():
-    return "Hello, code monkey!"
-
-
-@app.route("/elisabethan")
-def elisabethan():
     return insulter.insult()
 
 
