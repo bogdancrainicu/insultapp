@@ -9,6 +9,11 @@ app.config['PROPAGATE_EXCEPTIONS'] = True
 def insult():
   return "Hello, code monkey!"
 
+
+@app.route("/elisabethan")
+def insult():
+  return insulter.insult()
+
 # @app.route("/<name>")
 # def insult_name(name):
 #   return insulter.named_insult(name)
