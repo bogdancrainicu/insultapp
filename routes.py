@@ -1,5 +1,6 @@
 import os
 from flask import Flask
+import insulter
 
 app = Flask(__name__)
 # Keeps Flask from swallowing error messages
@@ -11,7 +12,7 @@ def insult():
 
 
 @app.route("/elisabethan")
-def insult():
+def elisabethan():
   return insulter.insult()
 
 # @app.route("/<name>")
