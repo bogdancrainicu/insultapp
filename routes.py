@@ -1,12 +1,13 @@
 import os
 from flask import Flask
+from random import choice
 import insult_generator
 
 app = Flask(__name__)
 # Keeps Flask from swallowing error messages
 app.config['PROPAGATE_EXCEPTIONS'] = True
 
-insulter = insult_generator.Insulter()
+insulter = insult_generator.Insulter(choice)
 
 @app.route("/")
 def insult():
