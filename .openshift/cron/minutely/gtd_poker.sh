@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python ../../gtdtracker/gtd.py
+python ../../../gtdtracker/gtd.py
