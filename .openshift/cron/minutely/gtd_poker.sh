@@ -1,3 +1,3 @@
 #!/bin/bash
 
-python ../../../gtdtracker/gtd.py
+# python $OPENSHIFT_REPO_DIR/gtdtracker/gtd.py
