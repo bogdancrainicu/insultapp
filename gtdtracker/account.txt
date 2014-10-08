@@ -1,0 +1,5 @@
+[server]
+hostname=imap.gmail.com
+
+[account]
+username=roberto.nerici@gmail.com
