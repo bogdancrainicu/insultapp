@@ -1,4 +1,13 @@
 language: python
 python:
-  - "2.7"
+- '2.7'
 script: nosetests
+deploy:
+  provider: openshift
+  user: roberton
+  password:
+    secure: XBDJAR8vLFjKsJa86i8VEUcXADwjhi9KSuIMJpudkRc8RCNsyMK53jWlhxYZ7ZpYC9FXMkU9EhbXm6skEJzKOTqpEVqeyVHB4u1JBaTFN2A5REn94+bns+ltANWQXlx7X5bfCnTA5vtdB61ArYugPiMoRBQcCD1BOOC7du649qQ=
+  app: insultapp
+  domain: roberton
+  on:
+    repo: roberton/insultapp
