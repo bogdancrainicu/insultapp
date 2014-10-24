@@ -14,4 +14,3 @@ class Insulter:
             self.choice(["bat-fowling", "boil-brained", "beetle-headed"]),
             self.choice(["barnacle", "bladder", "boar-pig"])
         )
-
